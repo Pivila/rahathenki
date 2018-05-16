@@ -1,0 +1,85 @@
+.site-header {
+  background: #85bb65;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+nav.menu--main ul {
+  margin: 0.9375em;
+  padding: 0;
+  font: Arial;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.5625em; }
+
+nav.menu--main li {
+  display: inline-block; }
+
+nav.menu--main a {
+  display: block;
+  padding: 0.3125em 0.9375em;
+  text-decoration: none;
+  color: #ffffff; }
+
+#block-rahathenki-theme-branding {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 3.125em; }
+
+.site-name {
+  font-size: 3.4375em;
+  font-family: Arial;
+  text-decoration: none;
+  color: black;
+  padding-left: 1.5625em; }
+  .site-name a {
+    text-decoration: none;
+    color: black; }
+
+.site-logo img {
+  width: 6.25em;
+  height: 6.25em; }
+
+.site-main {
+  font-family: Arial;
+  font-size: 16px;
+  background: #efefef;
+  color: #666;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.region-content {
+  padding: 0 2.5em; }
+
+.layout-content {
+  flex: 3; }
+  .layout-content .node__submitted {
+    padding: 0.625em 0; }
+  .layout-content .field__items {
+    padding: 0.625em 0 1.25em; }
+  .layout-content a {
+    text-decoration: none;
+    color: green; }
+
+.layout-sidebar-second {
+  background: yellowgreen;
+  flex: 1;
+  padding: 2.5em; }
+  .layout-sidebar-second a {
+    text-decoration: none;
+    color: green; }
+
+.site-footer {
+  font-family: Arial;
+  font-size: 16px;
+  background: #85bb65;
+  display: flex;
+  flex-wrap: wrap; }
+
+.region-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  padding: 2.5em; }

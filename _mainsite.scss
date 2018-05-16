@@ -1,0 +1,43 @@
+$link-color: green;
+
+.site-main {
+  font-family: Arial;
+  font-size: 16px;
+  background: #efefef;
+  color: #666;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.region-content {
+  padding: 0 2.5em;
+}
+
+.layout-content {
+  flex: 3;
+
+  .node__submitted {
+    padding: 0.625em 0;
+  }
+
+  .field__items {
+    padding: 0.625em 0 1.25em;
+  }
+
+  a {
+    text-decoration: none;
+    color: $link-color;
+  }
+}
+
+.layout-sidebar-second {
+  background: yellowgreen;
+  flex: 1;
+  padding: 2.5em;
+
+  a {
+    text-decoration: none;
+    color: $link-color;
+  }
+}

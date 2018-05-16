@@ -1,0 +1,55 @@
+.site-header {
+  background: #85bb65;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+nav.menu--main {
+  ul {
+    margin: 0.9375em;
+    padding: 0;
+    font: Arial;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.5625em;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    display: block;
+    padding: 0.3125em 0.9375em;
+    text-decoration: none;
+    color: #ffffff;
+  }
+}
+
+#block-rahathenki-theme-branding {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 3.125em;
+}
+
+.site-name {
+  font-size: 3.4375em;
+  font-family: Arial;
+  text-decoration: none;
+  color: black;
+  padding-left: 1.5625em;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.site-logo {
+  img {
+    width: 6.25em;
+    height: 6.25em;
+  }
+}
